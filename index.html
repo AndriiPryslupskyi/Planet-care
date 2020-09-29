@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/planet-care.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h3>Since 2016</h3>
+            <h1>PLANET CARE</h1>
+            <h2>no limit to perfection </h2>
+        </header>
+         <div class="flex-items">  <!-- кнопки -->
+            <button class="item" id="main-but">Головна</button>
+            <button class="item" id="about-but">Про нас</button>
+            <button class="item" id="gallery-but">Галерея</button>
+            <button class="item" id="price-but">Прайс</button>
+            <button class="item" id="sign-but">Запис</button>
+            <button class="item" id="contacts-but">Контакти</button>
+        </div>
+        <div class="all">
+            <div class="sale"> <!--бокова панель-->
+                <aside> 
+                    <nav> Програма лояльності
+                        <ul>
+                            <li><a href="/service-1/">-50% на кожну десяту процедуру</a></li>
+                            <li><a href="/service-2/">Комплекс: зняття + манікюр + покриття = 250</a></li>
+                            <li><a href="/service-3/">Подарункові сертифікати зі знижкою до -20%</a></li>
+                            <li></li>
+                        </ul>
+                    </nav>
+                </aside>              
+            </div>
+            <div class="content"> <!--змінна область-->
+                <div id="main" class="hide">
+                    <p><em>ми вміємо робити красу..</em></p>
+                        <div class="sertif">З нагоди відкриття розігруємо 10 сертифікатів на послуги!
+                            <div class="clearfix"></div>
+                            <button class="sert">Отримати сертифікат</button>    
+                        </div>
+                </div>
+                <div id="about" class="hide">
+                    Простір для тих, хто цінує час та якість.
+                    <br>
+                    Наша студія пропонує всі види манікюру та педикюру. 
+                    <br>
+                     Якісний сервіс, стерильний інструмент в крафт-пакетах, одноразові розхідні матеріали, лаки і обладнання преміум класу, великий вибір кольорової гами, красивий інтер'єр, доступні ціни послуг - все це змусить Вас закохатися в нашу студію раз і назавжди!
+                </div>
+                <div id="gallery" class="hide">
+                    <div id="slider">
+                        <div id="polosa">
+                            <img src="images/slider/1.jpg" alt="">
+                            <img src="images/slider/2.jpg" alt="">
+                            <img src="images/slider/3.jpg" alt="">
+                            <img src="images/slider/4.jpg" alt="">
+                            <img src="images/slider/5.jpg" alt="">
+                            <img src="images/slider/6.jpg" alt="">
+                            <img src="images/slider/7.jpg" alt="">
+                            <img src="images/slider/8.jpg" alt="">
+                            <img src="images/slider/9.jpg" alt="">
+                            <img src="images/slider/10.jpg" alt="">
+                            <img src="images/slider/11.jpg" alt="">
+                            <img src="images/slider/12.jpg" alt="">
+                            <img src="images/slider/13.jpg" alt="">
+                            <img src="images/slider/14.jpg" alt="">
+                            <img src="images/slider/15.jpg" alt="">
+                            <img src="images/slider/16.jpg" alt="">
+                            <img src="images/slider/17.jpg" alt="">
+                        </div>
+                    </div>
+                    <button id="slider-left">next</button>
+                </div>
+                <div id="price" class="hide">
+                    <table>
+                        <tr> 
+                            <th>Послуга</th>
+                            <th>Вартість</th>
+                        </tr>
+                        <tr>
+                            <td>Обрізний манікюр</td>
+                            <td>110</td>
+                        </tr>
+                        <tr>
+                            <td>Однотонне покриття гель-лаком</td>
+                            <td>140</td>
+                        </tr>
+                        <tr>
+                            <td>Френч</td>
+                            <td>190</td>
+                        </tr>
+                        <tr>
+                            <td>Укріплення акриловою пудрою</td>
+                            <td>70</td>
+                        </tr>
+                        <tr>
+                            <td>Ремонт одного нігтя</td>
+                            <td>10-20</td>
+                        </tr>
+                        <tr>
+                            <td>Дизайн одного нігтя</td>
+                            <td>10-20</td>
+                        </tr>
+                        <tr>
+                            <td>Зняття покриття іншого майстра</td>
+                            <td>50</td>
+                        </tr>               
+                    </table>
+                </div>
+                <div id="sign" class="hide">
+                    <form action="/signup" method="POST">
+                        <p>
+                            <h1 class="rules">
+                                Використовуючи "online-запис", кожен клієнт отримує особистий кабінет, в якому він може продивлятись історію своїх візитів і кількість накопичених бонусів. Ми нагадуємо клієнтам про візити в SMS за один день до процедури. Клієнт може легко скасувати запис або записатися на інший час, що звільнився.
+                            </h1>
+                            <h2 class="rules">
+                                Для запису заповніть, будь ласка, наступні поля та підтвердіть свою згоду зі всіма умовами.  
+                            </h2>
+                            <p>
+                                <label>Ім'я</label>
+                                <input type="text" name="first_name">
+                            </p>
+                            <p>
+                                <label>Прізвище</label>
+                                <input type="text" name="last_name">
+                            </p>
+                            <p>
+                                <label>Телефон</label>
+                                <input type="tel" name="phone">
+                            </p>
+                            <label class="check">Зручний день</label>
+                                <select name="day">
+                                    <option>01.10</option>
+                                    <option>02.10</option>
+                                    <option>03.10</option>
+                                    <option>04.10</option>
+                                    <option>05.10</option>
+                                    <option>06.10</option>
+                                    <option>07.10</option>
+                                </select>
+                            <label class="check">Зручний час</label>
+                                <select name="day">
+                                    <option>10:00</option>
+                                    <option>12:00</option>
+                                    <option>14:00</option>
+                                    <option>16:00</option>
+                                    <option>18:00</option>
+                                    <option>20:00</option>
+                                </select>
+                        </p>
+                        <p>
+                          <label>
+                                <input type="checkbox" name="terms">
+                                    Я погоджуюся зі всіма умовами
+                            </label>
+                        </p>
+                        <p>
+                            <button>
+                                Записатися
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div id="contacts" class="hide">
+                    <p id="contactstitle"> Наші контакти </p>   
+                    <p id="ourcontacts">
+                    +380987654321  
+                    <br>
+                    м. Львів, вул. Коновальця, буд 13</p>
+                    <div id="maps">
+                        <a target="blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%84%D0%B2%D0%B3%D0%B5%D0%BD%D0%B0+%D0%9A%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C%D1%86%D1%8F,+13,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.8330606,24.0055269,17z/data=!3m1!4b1!4m5!3m4!1s0x473add7ed67f4313:0x73744e4ed6d61f20!8m2!3d49.8330606!4d24.0077156">Відкрити місцерозташування на карті</a>
+                    </div>
+                </div>
+            </div>
+        <div class="clearfix"></div>
+        </div>
+    </div>
+    <footer>
+         
+    </footer>
+</body>
+<script src="js/planet-care.js"></script>
+</html>

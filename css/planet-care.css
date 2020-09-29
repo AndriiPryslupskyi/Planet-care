@@ -1,0 +1,251 @@
+body {
+    background: black;
+}
+
+h1, h2, h3, p {
+    color: blanchedalmond;
+    text-shadow: rgb(168, 144, 76) 5px 3px 3px;
+    margin: 10px 10px 10px 10px;
+}
+
+h1 {
+     font-size: 80px;
+}
+
+p, h2  {
+    font-size: 40px;
+}
+
+h3 {
+    float: right;
+    margin-right: 50px;
+}
+
+.flex-items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.item {
+    background:   rgb(202, 181, 123);
+    font-size: 20px; 
+    margin: 20px;     
+    padding: 5px 20px 5px 20px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.sale {
+    width: 20%;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.content {
+    width: 65%;
+    height: 700px;
+    position: relative;
+}
+
+.sertif {
+    background: rgba(184, 160, 144, 0.329);
+    text-shadow: rgb(29, 16, 1) 2px 2px 2px;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(197, 186, 154);
+}
+
+.sert {
+    border: 3px solid rgb(54, 39, 5);
+    background: rgb(202, 181, 123);
+    height: 30px;
+    width: 160px;
+}
+
+#main {
+    width: 100%;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    height: 700px;
+    position: absolute;
+}
+
+#about {
+    height: 700px;
+    width: 100%;
+    background-color: rgba(183, 143, 121, 0.445);
+    float: left;
+    position: relative;
+    display: none;
+    font-size: 43px;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    text-shadow: rgb(192, 172, 118) 3px 3px 3px;
+    color: rgb(26, 15, 2);
+}
+    
+#gallery {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(117, 100, 67);
+    float: left;
+    position: relative;
+    display: none;
+}
+
+#price {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(164, 144, 100);
+    float: left;
+    position: relative;
+    display: none;
+}
+
+#sign {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(131, 141, 105);
+    float: left;
+    position: relative;
+    display: none;
+    padding: 5px;
+}
+
+#contacts {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(107, 92, 67);
+    float: left;
+    position: relative;
+    display: none;
+}
+
+li {
+    font-size: 20px;
+    padding: 10px;  
+}
+
+a {
+    color: black;
+}
+
+nav {
+    font-size: 25px;
+    background: rgba(180, 187, 147, 0.829);
+    text-align: center;
+}
+
+footer {
+    height: 50px;
+    width: 1252;
+    background:   rgb(202, 181, 123);
+    margin: 40px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.rules {
+    font-size: 30px;
+    margin: 0px 0px 0px 20px;
+    text-shadow: rgb(70, 58, 30) 7px 3px 3px;
+}
+
+.check {
+    font-size: 40px;
+    color: blanchedalmond;
+    margin: 10px;
+    text-shadow: rgb(168, 144, 76) 3px 3px 3px;
+}
+
+#slider {
+    width: 750px;
+    height: 250px;
+    border: 5px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+#polosa {
+      width: 4250px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+#polosa img {
+    float: left;
+}
+
+#polosa::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#slider-left {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border: 5px solid black;
+    display: block;
+    margin: 0px auto;
+    background: rgb(202, 181, 123);
+}
+
+tr, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 700px;
+    height: 650px;
+   margin: 30px auto;
+   background-image: url(../images/price.png);
+   opacity: 60%;
+   background-size: cover;
+   font-size: 32px;
+   font-weight: bolder;
+}
+
+#ourcontacts, #contactstitle {
+    text-align: center;
+    margin: 30px;
+}
+
+#contactstitle {
+    font-size: 60px;
+    margin: 30px;
+    padding: 30px;
+}
+
+#maps {
+    margin: 120px auto;
+    height: 75px;
+    width: 400px;
+    background: rgb(172, 159, 108);
+    text-align: center;
+    font-size: 30px;
+}
